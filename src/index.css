@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+@layer utilities {
+  .checkerboard {
+    background-color: #1a1d28;
+    background-image:
+      linear-gradient(45deg, #252836 25%, transparent 25%),
+      linear-gradient(-45deg, #252836 25%, transparent 25%),
+      linear-gradient(45deg, transparent 75%, #252836 75%),
+      linear-gradient(-45deg, transparent 75%, #252836 75%);
+    background-size: 16px 16px;
+    background-position: 0 0, 0 8px, 8px -8px, -8px 0;
+  }
+
+  .panel-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #2e3344 transparent;
+  }
+
+  .panel-scroll::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .panel-scroll::-webkit-scrollbar-thumb {
+    background: #2e3344;
+    border-radius: 4px;
+  }
+}
+
+/* Selection outline injected onto SVG shapes */
+.svg-selected-outline {
+  outline: 2px solid #FF7D00;
+  outline-offset: 2px;
+}

@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "generated": "2026-09-22",
+    "sources": [
+      "/home/box/design-system/brands/vrijji/tokens.md",
+      "/home/box/design-system/brands/vijji-admin/tokens.md",
+      "/home/box/design-system/ledger/design-parts-ledger.csv"
+    ],
+    "policy": "Recorded hex only — never invent. Chat brand requires explicit --token; tools must not auto-pick."
+  },
+  "vrijji": {
+    "ink": "#0B0B0C",
+    "ink-2": "#52564F",
+    "ink-3": "#8B908A",
+    "paper": "#FFFFFF",
+    "paper-2": "#F5F7F5",
+    "line": "#E2E6E2",
+    "line-2": "#CDD3CD",
+    "green": "#0F5C2E",
+    "green-hi": "#17803E",
+    "green-pale": "#EAF2EC",
+    "amber": "#A96A00",
+    "red": "#A72B22",
+    "social-whatsapp": "#25D366",
+    "social-facebook": "#1877F2",
+    "social-instagram-mid": "#D6249F"
+  },
+  "vijji-admin": {
+    "forge": "#FF7D00",
+    "night": "#15162C",
+    "elevated": "#212240",
+    "soft-red": "#EF4444",
+    "neon-green": "#10B981",
+    "steel": "#A0AEC0",
+    "white": "#FFFFFF",
+    "border-dark": "#2D2E4F",
+    "light-bg": "#F0F2F5",
+    "foreground": "#FFFFFF",
+    "background": "#15162C",
+    "card": "#212240",
+    "primary": "#FF7D00",
+    "destructive": "#EF4444",
+    "ring": "#FF7D00"
+  },
+  "vijji-chat": {
+    "brand-live": "#f97316",
+    "brand-doc": "#4D8EF7",
+    "brand-hover": "#fb923c",
+    "bg-root": "#0a1224",
+    "green": "#10b981",
+    "_notes": "CRITICAL DRIFT: Drive 01-TOKENS.md documents brand blue #4D8EF7; live vijji.ai CSS (2026-09-16) uses orange #f97316. Admin forge is #FF7D00 (close but not identical). Do NOT auto-pick chat brand — require explicit --token brand-live or brand-doc. Status: needs-human-finish / CEO verification."
+  },
+  "aliases": {
+    "primary-vrijji": "vrijji.green",
+    "primary-admin": "vijji-admin.forge",
+    "ink-vrijji": "vrijji.ink",
+    "night-admin": "vijji-admin.night",
+    "forge": "vijji-admin.forge",
+    "green": "vrijji.green"
+  }
+}
